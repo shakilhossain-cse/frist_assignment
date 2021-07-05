@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+header {
+}
+.wrapper {
+  width: 90%;
+  margin: 0rem auto;
+  display: flex;
+}
+.text {
+  width: 50%;
+  margin: 10rem 0;
+}
+.text > h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 3rem 2rem;
+}
+.text > p {
+  font-size: 1rem;
+  color: rgb(97, 97, 97);
+  margin: 3rem 2rem;
+}
+
+.text > .btn {
+  text-decoration: none;
+  background-image: linear-gradient(to right, blue, rgb(99, 138, 247));
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 50px;
+  margin: 2rem;
+}
+.item {
+  color: blue;
+}
+.image {
+  margin: 5rem 0;
+  width: 50%;
+}
+.image > img {
+  width: 80%;
+}
